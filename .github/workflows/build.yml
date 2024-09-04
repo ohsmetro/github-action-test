@@ -8,8 +8,7 @@ on:
 jobs:
   test:
     runs-on: windows-2019
-    container:
-      image: node:20
+    
     steps:
       - uses: actions/checkout@v4
         with:
